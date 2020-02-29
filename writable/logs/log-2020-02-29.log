@@ -1,0 +1,306 @@
+CRITICAL - 2020-02-29 02:36:48 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 48, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582888991')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:37:48 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 48, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582888991')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:38:18 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 49, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582888991')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:38:19 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 49, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582888991')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:38:36 --> syntax error, unexpected 'p' (T_STRING)
+#0 C:\OSPanel\domains\localhost\crew\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\OSPanel\\doma...')
+#1 C:\OSPanel\domains\localhost\crew\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vote')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vote')
+#3 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(33): spl_autoload_call('App\\Models\\Vote')
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#5 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#6 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-02-29 02:39:22 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 49, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582888991')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:40:11 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 50, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582888991')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:40:59 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 50, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582888991')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:41:18 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 50, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582888991')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:45:58 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 50, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582908173')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:46:06 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 50, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582908173')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:46:56 --> Undefined offset: 1
+#0 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\OSPanel\\doma...', 51, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582908173')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 02:47:27 --> syntax error, unexpected ')'
+#0 C:\OSPanel\domains\localhost\crew\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\OSPanel\\doma...')
+#1 C:\OSPanel\domains\localhost\crew\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vote')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vote')
+#3 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(33): spl_autoload_call('App\\Models\\Vote')
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#5 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#6 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-02-29 02:48:30 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\OSPanel\\doma...', 46, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(46): count(NULL)
+#2 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582908173')
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#5 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-02-29 02:56:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count (votes.email) as place
+			from options
+			LEFT JOIN votes on votes.option_' at line 4
+#0 C:\OSPanel\domains\localhost\crew\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT \n\t\t\topti...')
+#1 C:\OSPanel\domains\localhost\crew\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n\t\t\topti...')
+#2 C:\OSPanel\domains\localhost\crew\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n\t\t\topti...')
+#3 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(33): CodeIgniter\Database\BaseConnection->query('SELECT \n\t\t\topti...')
+#4 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582908173')
+#5 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#6 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#7 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-02-29 02:56:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count (votes.email) as place
+			from options
+			LEFT JOIN votes on votes.option_' at line 4
+#0 C:\OSPanel\domains\localhost\crew\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT \n\t\t\topti...')
+#1 C:\OSPanel\domains\localhost\crew\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n\t\t\topti...')
+#2 C:\OSPanel\domains\localhost\crew\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n\t\t\topti...')
+#3 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(33): CodeIgniter\Database\BaseConnection->query('SELECT \n\t\t\topti...')
+#4 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582908173')
+#5 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#6 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#7 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-02-29 02:57:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COUNT (votes.email) as place
+			from options
+			LEFT JOIN votes on votes.option_' at line 4
+#0 C:\OSPanel\domains\localhost\crew\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT \n\t\t\topti...')
+#1 C:\OSPanel\domains\localhost\crew\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n\t\t\topti...')
+#2 C:\OSPanel\domains\localhost\crew\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n\t\t\topti...')
+#3 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(33): CodeIgniter\Database\BaseConnection->query('SELECT \n\t\t\topti...')
+#4 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582908173')
+#5 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#6 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#7 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-02-29 03:00:05 --> FUNCTION crew.COUNT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+#0 C:\OSPanel\domains\localhost\crew\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT \n\t\t\topti...')
+#1 C:\OSPanel\domains\localhost\crew\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \n\t\t\topti...')
+#2 C:\OSPanel\domains\localhost\crew\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \n\t\t\topti...')
+#3 C:\OSPanel\domains\localhost\crew\app\Models\Vote.php(33): CodeIgniter\Database\BaseConnection->query('SELECT \n\t\t\topti...')
+#4 C:\OSPanel\domains\localhost\crew\app\Controllers\Manage.php(36): App\Models\Vote->getVoting('1582908173')
+#5 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Manage->index()
+#6 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manage))
+#7 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-02-29 03:23:01 --> Undefined property: stdClass::$type
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\Event.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\OSPanel\\doma...', 45, Array)
+#1 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Event->index()
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-02-29 04:50:17 --> Cannot use object of type stdClass as array
+#0 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#1 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-02-29 05:14:14 --> Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP)
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\Status.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\OSPanel\\doma...', 45, Array)
+#1 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-02-29 05:15:01 --> Call to undefined method App\Controllers\Status::cancelVoting()
+#0 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#1 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-02-29 05:15:59 --> Call to undefined method App\Controllers\Status::cancelVoting()
+#0 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#1 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-02-29 05:16:47 --> Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP)
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\Status.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\OSPanel\\doma...', 47, Array)
+#1 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-02-29 05:16:50 --> Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP)
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\Status.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\OSPanel\\doma...', 47, Array)
+#1 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-02-29 06:15:11 --> Cannot use object of type stdClass as array
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\Status.php(47): App\Controllers\BaseController->endVoting('1582882514')
+#1 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-02-29 06:26:08 --> Trying to get property 'start' of non-object
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\BaseController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\OSPanel\\doma...', 103, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Status.php(47): App\Controllers\BaseController->endVoting('1582882514')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 06:28:28 --> Trying to get property 'start' of non-object
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\BaseController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\OSPanel\\doma...', 103, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Status.php(47): App\Controllers\BaseController->endVoting('1582882514')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 06:29:06 --> Trying to get property 'start' of non-object
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\BaseController.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\OSPanel\\doma...', 103, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Status.php(47): App\Controllers\BaseController->endVoting('1582882514')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 06:29:30 --> Trying to get property 'start' of non-object
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\BaseController.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\OSPanel\\doma...', 106, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Status.php(47): App\Controllers\BaseController->endVoting('1582882514')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 06:37:20 --> Use of undefined constant title - assumed 'title' (this will throw an Error in a future version of PHP)
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\BaseController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\OSPanel\\doma...', 105, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Status.php(47): App\Controllers\BaseController->endVoting('1582882514')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Status->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 07:14:20 --> Access level to App\Controllers\Viewevent::sendEmail() must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-02-29 07:14:23 --> Access level to App\Controllers\Viewevent::sendEmail() must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-02-29 07:14:31 --> Access level to App\Controllers\Viewevent::sendEmail() must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-02-29 07:14:52 --> Access level to App\Controllers\Viewevent::sendEmail() must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-02-29 07:14:57 --> Access level to App\Controllers\Viewevent::sendEmail() must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-02-29 08:43:52 --> time() expects exactly 0 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'time() expects ...', 'C:\\OSPanel\\doma...', 28, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Deadline.php(28): time('Y-m-d')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Deadline->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deadline))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 08:46:27 --> date() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', 'C:\\OSPanel\\doma...', 29, Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Deadline.php(29): date()
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Deadline->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deadline))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 09:04:25 --> Argument 1 passed to CodeIgniter\Model::findAll() must be of the type int, array given, called in C:\OSPanel\domains\localhost\crew\app\Controllers\BaseController.php on line 116
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\BaseController.php(116): CodeIgniter\Model->findAll(Array)
+#1 C:\OSPanel\domains\localhost\crew\app\Controllers\Deadline.php(34): App\Controllers\BaseController->endVoting('1582984776')
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Deadline->index()
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deadline))
+#4 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-02-29 09:11:36 --> Cannot use object of type stdClass as array
+#0 C:\OSPanel\domains\localhost\crew\app\Controllers\Deadline.php(34): App\Controllers\BaseController->endVoting('1582984776')
+#1 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(910): App\Controllers\Deadline->index()
+#2 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deadline))
+#3 C:\OSPanel\domains\localhost\crew\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\OSPanel\domains\localhost\crew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

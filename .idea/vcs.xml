@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CodeIgniter-Ion-Auth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CodeIgniter-JWT-Sample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php-jwt" vcs="Git" />
+  </component>
+</project>
