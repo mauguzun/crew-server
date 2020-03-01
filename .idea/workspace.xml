@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b261508-d84a-4256-b3e6-aa9d61c818d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CodeIgniter-Ion-Auth/Controllers/Auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter-Ion-Auth/Controllers/Auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Controllers/Register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Config/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/Routes.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,13 +31,15 @@
   <component name="ProjectId" id="1YLClEfHPgQlINfQoiAexxP0OIU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CodeIgniter-Ion-Auth/Views/auth/email" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\localhost\crew\CodeIgniter-Ion-Auth\Views\auth\email" />
       <recent name="C:\OSPanel\domains\localhost\crew\app\Controllers" />
       <recent name="C:\OSPanel\domains\localhost\crew\app\Models" />
     </key>
@@ -74,6 +78,8 @@
       <workItem from="1582820751495" duration="6565000" />
       <workItem from="1582871581448" duration="14155000" />
       <workItem from="1582963321692" duration="17938000" />
+      <workItem from="1583062170065" duration="6214000" />
+      <workItem from="1583082362569" duration="2387000" />
     </task>
     <servers />
   </component>
@@ -92,5 +98,29 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/CodeIgniter-Ion-Auth/Controllers/Auth.php</url>
+          <line>862</line>
+          <properties>
+            <option name="className" value="\IonAuth\Controllers\Auth" />
+            <option name="methodName" value="edit_group" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/CodeIgniter-Ion-Auth/Controllers/Auth.php</url>
+          <line>72</line>
+          <properties>
+            <option name="className" value="\IonAuth\Controllers\Auth" />
+            <option name="methodName" value="__construct" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

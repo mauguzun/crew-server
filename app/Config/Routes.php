@@ -34,6 +34,7 @@ $routes->get('/', 'Home::index');
 $routes->post('viewevent', 'Viewevent::index');
 $routes->post('event', 'Event::index');
 $routes->post('vote', 'Vote::index');
+$routes->post('register', 'Register::index');
 $routes->get('manage', 'Manage::index');
 
 
@@ -41,6 +42,9 @@ $routes->group('auth', ['namespace' => 'IonAuth\Controllers'], function ($routes
 	$routes->get('/', 'Auth::index');
 	$routes->add('login', 'Auth::login');
 	$routes->get('logout', 'Auth::logout');
+	$routes->get('activate/(:num)/(:any)', 'Auth::activate/$1/$2');
+	$routes->get('create_user', 'Auth::create_user');
+	$routes->post('create_user', 'Auth::create_user');
 	$routes->get('forgot_password', 'Auth::forgot_password');
 });
 

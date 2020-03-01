@@ -1,0 +1,9 @@
+_ci_previous_url|s:45:"http://localhost/crew/public/auth/create_user";__ci_last_regenerate|i:1583065523;message|s:312:"<!-- DEBUG-VIEW START 2 ROOTPATH/CodeIgniter-Ion-Auth/Views/Messages/list.php -->
+	<div class="alert alert-info" role="alert">
+		<ul>
+					<li>Activation Email Sent. Please check your inbox or spam</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 2 ROOTPATH/CodeIgniter-Ion-Auth/Views/Messages/list.php -->
+";__ci_vars|a:1:{s:7:"message";s:3:"new";}

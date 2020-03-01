@@ -1,5 +1,4 @@
-<html>
-<body>
+<? include("header.php") ?>
 	<h1><?php echo sprintf(lang('IonAuth.emailActivate_heading'), $identity);?></h1>
 	<p>
 		<?php
@@ -7,5 +6,4 @@
 						  anchor('auth/activate/' . $id . '/' . $activation, lang('IonAuth.emailActivate_link')));
 		?>
 	</p>
-</body>
-</html>
+<? include("footer.php") ?>

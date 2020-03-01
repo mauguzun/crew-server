@@ -143,15 +143,15 @@ class IonAuth extends \CodeIgniter\Config\BaseConfig
 	 | The library will fail for empty password or password size above 4096 bytes.
 	 | This is an arbitrary (long) value to protect against DOS attack.
 	 */
-	public $siteTitle                = 'Example.com';       // Site Title, example.com
-	public $adminEmail               = 'admin@example.com'; // Admin Email, admin@example.com
+	public $siteTitle                = 'Crew Meeting';       // Site Title, example.com
+	public $adminEmail               = 'info@crew.com'; // Admin Email, admin@example.com
 	public $defaultGroup             = 'members';           // Default group, use name
 	public $adminGroup               = 'admin';             // Default administrators group, use name
 	public $identity                 = 'email';             /* You can use any unique column in your table as identity column.
 																	IMPORTANT: If you are changing it from the default (email),
 																				update the UNIQUE constraint in your DB */
 	public $minPasswordLength        = 8;                   // Minimum Required Length of Password (not enforced by lib - see note above)
-	public $emailActivation          = false;               // Email Activation for registration
+	public $emailActivation          = true;               // Email Activation for registration
 	public $manualActivation         = false;               // Manual Activation for registration
 	public $rememberUsers            = true;                // Allow users to be remembered and enable auto-login
 	public $userExpire               = 86500;               // How long to remember the user (seconds). Set to zero for no expiration
@@ -184,7 +184,7 @@ class IonAuth extends \CodeIgniter\Config\BaseConfig
 	 | 	  'file' = Use the default CI config or use from a config file
 	 | 	  array  = Manually set your email config settings
 	 */
-	public $useCiEmail  = false; // Send Email using the builtin CI email class, if false it will return the code and the identity
+	public $useCiEmail  = true; // Send Email using the builtin CI email class, if false it will return the code and the identity
 	public $emailConfig = [
 		'mailtype' => 'html',
 	];

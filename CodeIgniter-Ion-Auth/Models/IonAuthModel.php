@@ -86,7 +86,7 @@ class IonAuthModel
 	 *
 	 * @var string
 	 */
-	public $activationCode;
+	public $activationCode ;
 
 	/**
 	 * Identity column
@@ -198,7 +198,7 @@ class IonAuthModel
 	 *
 	 * @var \CodeIgniter\Database\BaseConnection
 	 */
-	protected $db;
+	public $db;
 
 	/**
 	 * Constructor

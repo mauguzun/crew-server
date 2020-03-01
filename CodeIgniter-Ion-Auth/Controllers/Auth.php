@@ -1,6 +1,8 @@
 <?php
 namespace IonAuth\Controllers;
 
+use IonAuth\Models\IonAuthModel;
+
 /**
  * Class Auth
  *
@@ -444,9 +446,18 @@ class Auth extends \CodeIgniter\Controller
 	 *
 	 * @return \CodeIgniter\HTTP\RedirectResponse
 	 */
-	public function activate(int $id, string $code = ''): \CodeIgniter\HTTP\RedirectResponse
+	public function activate(int $id, string $code = '')
 	{
-		$activation = false;
+
+        $auth = new IonAuthModel();
+        $user = $auth->getUserByActivationCode($code);
+
+        if($user->id == $id){
+            $auth->db->table($auth->tables['users'])->update(['active'=>1,'activation_code'=>''], ['id' => $id]);
+            return redirect()->to(FRONT.'login/?status=activated');
+        }else {
+            return redirect()->to(FRONT . 'login/?status=cantActivate');
+        }
 
 		if (! $code)
 		{
@@ -477,7 +488,7 @@ class Auth extends \CodeIgniter\Controller
 	 * @param integer $id The user ID
 	 *
 	 * @throw Exception
-	 *
+	 *create_user
 	 * @return string|\CodeIgniter\HTTP\RedirectResponse
 	 */
 	public function deactivate(int $id = 0)
@@ -530,10 +541,10 @@ class Auth extends \CodeIgniter\Controller
 	{
 		$this->data['title'] = lang('Auth.create_user_heading');
 
-		if (! $this->ionAuth->loggedIn() || ! $this->ionAuth->isAdmin())
-		{
-			return redirect()->to('/auth');
-		}
+//		if (! $this->ionAuth->loggedIn() || ! $this->ionAuth->isAdmin())
+//		{
+//			return redirect()->to('/auth');
+//		}
 
 		$tables                        = $this->configIonAuth->tables;
 		$identityColumn                = $this->configIonAuth->identity;
@@ -580,7 +591,12 @@ class Auth extends \CodeIgniter\Controller
 		{
 			// display the create user form
 			// set the flash data error message if there is one
-			$this->data['message'] = $this->validation->getErrors() ? $this->validation->listErrors($this->validationListTemplate) : ($this->ionAuth->errors($this->validationListTemplate) ? $this->ionAuth->errors($this->validationListTemplate) : $this->session->getFlashdata('message'));
+			$this->data['message'] = $this->validation->getErrors() ? $this->validation->listErrors($this->validationListTemplate)
+                : ($this->ionAuth->errors($this->validationListTemplate) ?
+                    $this->ionAuth->errors($this->validationListTemplate) : $this->session->getFlashdata('message'));
+
+			var_dump($this->validation->getErrors());
+
 
 			$this->data['first_name'] = [
 				'name'  => 'first_name',
